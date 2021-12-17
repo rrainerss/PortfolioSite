@@ -59,7 +59,7 @@ body
 .CustomArrow, .CustomArrow:before
 {
     position: absolute;
-    left: 60%;
+    left: 50%;
 }
 .CustomArrow
 {
