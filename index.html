@@ -13,10 +13,10 @@
 
     <div class="m-0 w-75 py-5">
 
-        <div class="container HeaderContainer1 py-1 ml-0"></div>
-        <div class="container HeaderContainer2 py-1 my-1 mr-3"></div>
+        <div class="mx-auto container HeaderContainer1 py-1 ml-0"></div>
+        <div class="mx-auto container HeaderContainer2 py-1 my-1 mr-3"></div>
 
-        <div class="container TitleContainer w-100 pt-4 px-5">
+        <div class="mx-auto container TitleContainer w-100 pt-4 px-5">
             <h1>Portfolio</h1>
             <h1><b>Rainers Strads</b></h1>
             <h4>A student at Valmieras tehnikums</h4>
@@ -29,7 +29,7 @@
             </div>
         </div>
 
-        <div class="container MainContainer w-100 py-4 mt-3 px-5">
+        <div class="mx-auto container MainContainer w-100 py-4 mt-3 px-5">
             <b>My most recent project - a web scraper.</b>
             <p>It automatically gathers data from an ad listing site and displays it in a more readable way.
              Created using PHP, the Laravel framework and Laravel-goutte scraper.
@@ -41,13 +41,37 @@
 
         </div>
 
-        <div class="container MainContainer w-100 py-4 mt-3 px-5">
+        <div class="mx-auto container MainContainer w-100 py-4 mt-3 px-5">
             <b>A lightweight and responsive website</b>
             <p>This site was assembled during my time at a local web development company. My contributions
-             include some of the HTML structure, responsive Bootstrap and recreating the planned design with CSS.</p>
+            include some of the HTML structure, responsive Bootstrap and recreating the planned design with CSS.
+            The site itself uses the GoHugo framework.</p>
             <a href="https://www.zivjumaja.lv">Link to the website</a>
             <hr class="CustomHr">
             <img class="img-fluid my-4 CustomImage" src="img/portfolio_zivjumaja.png" alt="There should be an image here">
+        </div>
+
+        <div class="mx-auto container MainContainer w-100 py-4 mt-3 px-5">
+            <b>Some of my other projects</b>
+            <hr class="CustomHr">
+            <div class="ImageGrid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center">
+                        <img class="img-fluid CustomImage my-2" src="img/portfolio-django.png" alt="There should be an image here">
+                        <p>Static website using Django, a Python framework</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center">
+                        <img class="img-fluid CustomImage my-2" src="img/portfolio_cupgame.png" alt="There should be an image here">
+                        <p>Javascript cup game with CSS animations</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 text-center mx-auto">
+                        <img class="img-fluid CustomImage my-2" src="img/portfolio_blog.png" alt="There should be an image here">
+                        <p>An internship task - a blog using the Laravel framework</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
